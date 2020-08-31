@@ -1,5 +1,4 @@
 
-
 * {
     box-sizing              : border-box;
 }
@@ -11,7 +10,7 @@ body{
     margin                  : auto;
 }
 
-h1,h2,h3,h4,h5,ul,p{
+h1,h2,h3,h4,h5,ul{
     margin                  : 0;
     padding                 : 0;
 }
@@ -32,12 +31,15 @@ h5{
 }
 
 #recommandation_block{
-    padding-top             : 2%;
     width                   : 100%;
     display                 : flex;
     justify-content         : space-between;
     flex-wrap               : wrap;
     padding                 : 2% 0;
+}
+#recommandation_block p{
+    margin                  : 0;
+    padding                 : 0;
 }
 
 /* aside*/
@@ -87,6 +89,8 @@ aside h3{
 
 aside p{
     text-align              : justify;
+    margin                  : 0;
+    padding                 : 0;
 }
 
 aside i{
@@ -226,6 +230,12 @@ main h3{
         padding-right       : 10px;
         hyphens             : auto;
     }
+    
+    main h3{
+        text-align          : center;
+    }
+}
+
     
     main h3{
         text-align          : center;
